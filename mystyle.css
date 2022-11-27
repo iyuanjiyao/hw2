@@ -1,0 +1,127 @@
+/* Border styles *//
+#container {
+    color: red;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -60px;/*margin-bottom的负值等于footer高度*/
+}
+.push,
+#footer {
+    color: red;
+    height: 60px;
+    clear:both;
+}
+#table-2 thead, #table-2 tr {
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: rgb(230, 189, 189);
+    }
+    #table-2 {
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 189, 189);
+    }
+    
+    /* Padding and font style */
+    #table-2 td, #table-2 th {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: Verdana;
+    color: rgb(177, 106, 104);
+    }
+    
+    /* Alternating background colors */
+    #table-2 tr:nth-child(even) {
+    background: rgb(238, 211, 210)
+    }
+    #table-2 tr:nth-child(odd) {
+    background: #FFF
+    }
+    .div_top{
+        width:100%;
+        height:56px;
+        background-color:#777;
+    }
+    
+    .div_title{
+        width:100%;
+        height:100px;
+        background-color:#555;
+        margin-top:10px;
+    }
+    
+    .div_body{
+        width:100%;
+        height:1000px;
+        background-color:#bbb;
+        margin-top:10px;
+    }
+    
+    .div_menu{
+        width:5%;
+        height:56px;
+        float:left;
+        font-size:14px;
+        color:#fff;
+        text-align:center;
+        line-height:56px;
+
+    }
+    .color-menu1{
+        background-color:#999;
+    }
+    .color-menu2{
+        background-color:#666;
+    }
+    .color-menu3{
+        background-color:#999;
+    }
+    .color-menu4{
+        background-color:#666;
+    }
+    
+    .div_headimage{
+        height:100px;
+        width:100px;
+        margin-left:5%;
+        float:left;
+    }
+            .div_titledata{
+                    height:24px;
+        width:166px;
+                    float:left;
+                    font-size:22px;
+                    margin-left:2%;
+                    color:#f0ffff;
+            }
+            .div_titledata2{
+                    height:24px;
+        width:600px;
+                    float:left;
+                    font-size:22px;
+                    margin-left:2%;
+                    color:#f0ffff;
+            }
+           .div_photo{
+                   height:300px;
+                   width:20%;
+                   float:left;
+                   margin-left:30px;
+                   margin-top:10px;
+            }
+           .div_phototime{
+                   height:25px;
+                   width:250px;
+                   text-align:center;
+                   line-height:25px;   
+                   background-color:#A9A9A9;                 
+            }
+           .div_end{
+                   text-align:center;
+                   width:100%;
+           height:100px;
+                   float:left;
+                   background-color:#555;
+                   
+                   
